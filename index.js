@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
   res.sendFile(process.cwd() + '/views/index.html');
 });
 
-
+console.log("first solution commit");
 
 
 const port = process.env.PORT || 3000;
